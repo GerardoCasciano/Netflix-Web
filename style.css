@@ -1,0 +1,30 @@
+   .Netflx {
+        width: 100px;
+      }
+      .form-select {
+        width: 150px;
+      }
+      .row {
+        --bs-gutter-x: 18.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .Foters {
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+      .textfoot {
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+      .container {
+        width: 100px;
+      }
+      .container2 {
+        width: 140px;
+        margin-left: 25%;
+      }
+
+
+      

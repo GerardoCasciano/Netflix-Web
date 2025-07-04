@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <style>
+      .Netflx {
+        width: 100px;
+      }
+      .form-select {
+        width: 150px;
+      }
+      .row {
+        --bs-gutter-x: 18.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .Foters {
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+      .textfoot {
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+      .container {
+        width: 100px;
+      }
+      .container2 {
+        width: 140px;
+        margin-left: 25%;
+      }
+    </style>
+  </head>
+  <body class="color bg-black">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <img
+            class="Netflx"
+            src="./Netflix-assets/assets/netflix_logo.png "
+            alt="nfx"
+          />
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Tv Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-white" aria-disabled="true"
+                  >Recently Added</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-white" aria-disabled="true"
+                  >My List</a
+                >
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex">
+            <i class="bi bi-search text-white fs-5 me-3"></i>
+          </form>
+          <a class="nav-link disabled text-white" href="#">Kidds</a>
+          <form class="d-flex">
+            <i class="bi bi-bell-fill text-white fs-5 me-3 mx-3"></i>
+          </form>
+          <form class="d-flex">
+            <i class="bi bi-person-circle text-white fs-4"></i>
+          </form>
+        </div>
+      </nav>
+      <div class="testo text-white m-5 d-flex">
+        <h1>
+          <strong>Tv Shows</strong>
+        </h1>
+        <select
+          class="form-select text-white bg-black mx-5"
+          aria-label="Disabled select example"
+          disabled
+        >
+          <option selected>Genres</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </header>
+    <div class="testo2 m-5 text-white fs-3"><strong>Tranding Now</strong></div>
+    <main>
+      <div class="conteiner m-5">
+        <div class="row">
+          <div class="col-12 col-sm-8 col-md-6 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media0.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media14.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media2.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media3.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media14.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media5.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="testo2 m-5 text-white fs-3">
+        <strong>Watch it Again</strong>
+      </div>
+      <div class="conteiner m-5">
+        <div class="row">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media7.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media16.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media8.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media19.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media22.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media14.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="testo3 m-5 text-white fs-3">
+        <strong>New releases</strong>
+      </div>
+      <div class="conteiner m-5">
+        <div class="row">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media21.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media25.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media15.jpg" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media25.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media19.webp" alt="" />
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="./Netflix-assets/assets/media/media26.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      >
+      <form class="Foters d-flex mt-5">
+        <i class="bi bi-facebook text-white fs-4 p-5 opacity-50"></i>
+        <i class="bi bi-instagram text-white fs-4 p-5 opacity-50"></i>
+        <i class="bi bi-twitter text-white fs-4 p-5 opacity-50"></i>
+        <i class="bi bi-youtube text-white fs-4 p-5 opacity-50"></i>
+      </form>
+      <div
+        class="textfoot mt-5 text-white opacity-50 d-flex justify-content-between"
+      >
+        <p>Audio and subtitles</p>
+        <p>Audio description</p>
+        <p>Help center</p>
+        <p>Gift cards</p>
+      </div>
+      <div
+        class="textfoot mt-5 text-white opacity-50 d-flex justify-content-between"
+      >
+        <p>Media Center</p>
+        <p>Investor Relation</p>
+        <p>Jobs</p>
+        <p>Teams of Use</p>
+      </div>
+      <div
+        class="textfoot mt-5 text-white opacity-50 d-flex justify-content-between"
+      >
+        <p>APrivacy</p>
+        <p>Legal Relation</p>
+        <p>Coockie Preference</p>
+        <p>Corporate information</p>
+      </div>
+      <div class="textfoot mt-5 text-white opacity-50">Contact Us</div>
+
+      <div class="container2 text-center border mt-5 opacity-50">
+        <div class="row w-auto">
+          <div class="col text-white">
+            <p>Service Contact</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
